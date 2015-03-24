@@ -4,7 +4,7 @@ SOURCEDIR=/home/owncloud/www
 BACKUPDIR=/root/backups/owncloud_`date +"%Y%m%d"`/
 DBBACKUPPATH="$BACKUPDIR"mysqldump_`date +"%Y%m%d"`.sql
 MYSQLUSER=owncloud
-MYSQLPASS=CikutkeewmOsVeroosejEggEi
+MYSQLPASS=[CHANGEME]
 MYSQLSERVER=localhost
 MYSQLDBNAME=owncloud
 clear
