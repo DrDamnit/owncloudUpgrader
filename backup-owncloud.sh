@@ -1,7 +1,7 @@
 #!/bin/bash
 # Reference: http://doc.owncloud.org/server/7.0/admin_manual/maintenance/backup.html
 SOURCEDIR=/home/owncloud/www
-BACKUPDIR=/root/backups/owncloud_`date +"%Y%m%d"`/
+BACKUPDIR=/home/owncloud/backups/owncloud_`date +"%Y%m%d"`/
 DBBACKUPPATH="$BACKUPDIR"mysqldump_`date +"%Y%m%d"`.sql
 MYSQLUSER=owncloud
 MYSQLPASS=[CHANGEME]
